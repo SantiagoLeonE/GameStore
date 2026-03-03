@@ -15,8 +15,8 @@ public interface VideoJuegoRepository extends JpaRepository<VideoJuego,Long> {
     //Se aplica el Derived Query. Buscar un videojuego por su género
     List<VideoJuego> findByGenero(Genero genero);
 
-    //Se aplica el Derived Query. Buscar un videojuego por su género, en donde se ignoran las mayúsculas y las minúsculas
-    List<VideoJuego> findByGeneroIgnoreCase(Genero generoIgnoreCase);
+    //Se aplica el Derived Query. Buscar un videojuego por su titulo, en donde se ignoran las mayúsculas y las minúsculas
+    List<VideoJuego> findByTituloContainingIgnoreCase(String titulo);
 
     //Consulta JPQL: Se buscan videojuegos que están dentro de un rango de precios
     @Query("SELECT v FROM VideoJuego v WHERE v.precio BETWEEN :min and :max")
