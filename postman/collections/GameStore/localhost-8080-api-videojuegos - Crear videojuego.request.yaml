@@ -1,5 +1,5 @@
 $kind: http-request
-name: localhost:8080/api/videojuegos
+name: localhost:8080/api/videojuegos - Crear videojuego
 url: localhost:8080/api/videojuegos
 method: POST
 body:

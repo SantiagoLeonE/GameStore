@@ -1,5 +1,5 @@
 $kind: http-request
-name: localhost:8080/api/desarrolladoras
+name: localhost:8080/api/desarrolladoras - Crear desarrolladora
 url: localhost:8080/api/desarrolladoras
 method: POST
 body:

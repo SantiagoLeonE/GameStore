@@ -1,0 +1,5 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos/7 - Eliminar un videojuego por su Id
+url: localhost:8080/api/videojuegos/7
+method: DELETE
+order: 4500760547744792

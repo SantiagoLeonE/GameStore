@@ -1,5 +1,5 @@
 $kind: http-request
-name: localhost:8080/api/desarrolladoras
+name: localhost:8080/api/desarrolladoras - Listar desarrolladoras existentes
 url: localhost:8080/api/desarrolladoras
 method: GET
 order: 3672967618271680

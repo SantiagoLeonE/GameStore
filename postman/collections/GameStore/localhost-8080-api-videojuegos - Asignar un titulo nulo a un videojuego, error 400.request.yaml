@@ -1,0 +1,25 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos - Asignar un titulo nulo a un videojuego,
+  error 400
+url: localhost:8080/api/videojuegos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"titulo\": \"\",\r
+
+    \    \"precio\": 200000.0,\r
+
+    \    \"codigoRegistro\": \"VJ-004\",\r
+
+    \    \"genero\": \"ACCION\",\r
+
+    \    \"desarrolladora\": {\r
+
+    \        \"id\": 3\r
+
+    \    }\r
+
+    }"
+order: 4503598734742190

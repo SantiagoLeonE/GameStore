@@ -1,0 +1,12 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos/4/descuento?porcentaje=10 - Aplicar
+  descuento a un juego en especifico
+url: localhost:8080/api/videojuegos/4/descuento?porcentaje=10
+method: PATCH
+queryParams:
+  - key: porcentaje
+    value: "10"
+body:
+  type: json
+  content: ""
+order: 4503203111712511

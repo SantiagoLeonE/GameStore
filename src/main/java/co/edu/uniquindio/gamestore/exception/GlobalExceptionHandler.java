@@ -12,7 +12,7 @@ import java.util.Map;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    //Nos permite capturar errores de validación como precio negativo, titulo vacío, entre otros. Estado 400
+    //Nos permite capturar errores de validación como precio negativo, título vacío, entre otros. Estado 400
     @ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<Map<String, String>> manejarIllegalArgument(IllegalArgumentException e) {
         Map<String, String> error = new HashMap<>();

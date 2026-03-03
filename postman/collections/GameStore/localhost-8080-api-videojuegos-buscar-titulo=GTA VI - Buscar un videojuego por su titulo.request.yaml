@@ -1,0 +1,9 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos/buscar?titulo=GTA VI - Buscar un videojuego
+  por su titulo
+url: localhost:8080/api/videojuegos/buscar?titulo=GTA VI
+method: GET
+queryParams:
+  - key: titulo
+    value: GTA VI
+order: 4501898397195307

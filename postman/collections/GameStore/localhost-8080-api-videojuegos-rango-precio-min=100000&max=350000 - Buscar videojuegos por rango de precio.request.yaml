@@ -1,0 +1,11 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos/rango-precio?min=100000&max=350000 - Buscar
+  videojuegos por rango de precio
+url: localhost:8080/api/videojuegos/rango-precio?min=100000&max=350000
+method: GET
+queryParams:
+  - key: min
+    value: "100000"
+  - key: max
+    value: "350000"
+order: 4502641216969836

@@ -1,0 +1,5 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos/6 - Obtener un videojuego  por su Id
+url: localhost:8080/api/videojuegos/6
+method: GET
+order: 4499606258724130

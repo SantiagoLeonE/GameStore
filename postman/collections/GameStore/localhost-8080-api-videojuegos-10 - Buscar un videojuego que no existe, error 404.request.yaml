@@ -1,0 +1,6 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos/10 - Buscar un videojuego que no existe,
+  error 404
+url: localhost:8080/api/videojuegos/10
+method: GET
+order: 4503595881048646

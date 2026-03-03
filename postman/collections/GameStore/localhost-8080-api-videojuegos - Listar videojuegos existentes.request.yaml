@@ -1,5 +1,5 @@
 $kind: http-request
-name: localhost:8080/api/videojuegos
+name: localhost:8080/api/videojuegos - Listar videojuegos existentes
 url: localhost:8080/api/videojuegos
 method: GET
 order: 4105854273503946

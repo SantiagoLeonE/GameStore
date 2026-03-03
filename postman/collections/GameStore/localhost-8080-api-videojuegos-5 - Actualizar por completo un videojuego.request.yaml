@@ -1,0 +1,24 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos/5 - Actualizar por completo un videojuego
+url: localhost:8080/api/videojuegos/5
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"titulo\": \"EA Sports FC 27\",\r
+
+    \    \"precio\": 320000.0,\r
+
+    \    \"codigoRegistro\": \"VJ-002\",\r
+
+    \    \"genero\": \"DEPORTES\",\r
+
+    \    \"desarrolladora\": {\r
+
+    \        \"id\": 3\r
+
+    \    }\r
+
+    }"
+order: 4499657740462509

@@ -1,0 +1,24 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos - Crear videojuego
+url: localhost:8080/api/videojuegos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"titulo\": \"Super Mario Bros\",\r
+
+    \    \"precio\": 150000.0,\r
+
+    \    \"codigoRegistro\": \"VJ-003\",\r
+
+    \    \"genero\": \"OTROS\",\r
+
+    \    \"desarrolladora\": {\r
+
+    \        \"id\": 1\r
+
+    \    }\r
+
+    }"
+order: 4474544052734862

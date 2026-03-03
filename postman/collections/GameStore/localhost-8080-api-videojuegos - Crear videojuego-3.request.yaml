@@ -1,0 +1,24 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos - Crear videojuego
+url: localhost:8080/api/videojuegos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"titulo\": \"Battlefield\",\r
+
+    \    \"precio\": 230000.0,\r
+
+    \    \"codigoRegistro\": \"VJ-004\",\r
+
+    \    \"genero\": \"ACCION\",\r
+
+    \    \"desarrolladora\": {\r
+
+    \        \"id\": 2\r
+
+    \    }\r
+
+    }"
+order: 4498353740138975
