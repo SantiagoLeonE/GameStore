@@ -4,9 +4,11 @@ import co.edu.uniquindio.gamestore.entity.Desarrolladora;
 import co.edu.uniquindio.gamestore.entity.VideoJuego;
 import co.edu.uniquindio.gamestore.exception.ResourceNotFoundException;
 import co.edu.uniquindio.gamestore.repository.VideoJuegoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class VideoJuegoService {
 
     private final VideoJuegoRepository videoJuegoRepository;

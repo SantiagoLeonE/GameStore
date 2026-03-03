@@ -23,7 +23,7 @@ public class DesarrolladoraService {
     }
 
     //Crear una desarrolladora nueva
-    public Desarrolladora crear(Desarrolladora desarrolladora) {
+    public Desarrolladora crearDesarrolladora(Desarrolladora desarrolladora) {
         return desarrolladoraRepository.save(desarrolladora);
     }
 
