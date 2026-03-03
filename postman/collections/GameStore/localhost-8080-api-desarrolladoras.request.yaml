@@ -1,0 +1,14 @@
+$kind: http-request
+name: localhost:8080/api/desarrolladoras
+url: localhost:8080/api/desarrolladoras
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"nombre\": \"Electronic Arts\",\r
+
+    \    \"sitioWeb\": \"https://www.ea.com/\"\r
+
+    }"
+order: 929774037029878

@@ -1,0 +1,5 @@
+$kind: http-request
+name: localhost:8080/api/desarrolladoras
+url: localhost:8080/api/desarrolladoras
+method: GET
+order: 3672967618271680

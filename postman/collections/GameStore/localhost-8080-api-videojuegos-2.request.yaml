@@ -1,0 +1,24 @@
+$kind: http-request
+name: localhost:8080/api/videojuegos
+url: localhost:8080/api/videojuegos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"titulo\": \"FIFA 27\",\r
+
+    \    \"precio\": 350000.0,\r
+
+    \    \"codigoRegistro\": \"VJ-002\",\r
+
+    \    \"genero\": \"DEPORTES\",\r
+
+    \    \"desarrolladora\": {\r
+
+    \        \"id\": 2\r
+
+    \    }\r
+
+    }"
+order: 4344116760260405

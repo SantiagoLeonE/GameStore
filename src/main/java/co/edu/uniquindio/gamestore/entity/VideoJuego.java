@@ -17,11 +17,11 @@ public class VideoJuego {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    //El título del videjuego se define como obligatorio y con un máximo de 100 caracteres
+    //El título del videojuego se define como obligatorio y con un máximo de 100 caracteres
     @Column(nullable = false, length = 200)
     private String titulo;
 
-    //EL precio del videojuego se define como obligatorio
+    //El precio del videojuego se define como obligatorio
     @Column(nullable = false)
     private Double precio;
 

@@ -1,0 +1,14 @@
+$kind: http-request
+name: localhost:8080/api/desarrolladoras
+url: localhost:8080/api/desarrolladoras
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"nombre\": \"LucasArts\",\r
+
+    \    \"sitioWeb\": \"https://www.lucasarts.com/\"\r
+
+    }"
+order: 3649406561883223
